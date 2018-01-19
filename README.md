@@ -1,36 +1,36 @@
 #Description
 
-Este È um Stratum Proxy para Monero-pools (RPCv2) usando asynchronous networking escrito em Python Twisted.
+Este √© um Stratum Proxy para Monero-pools (RPCv2) usando asynchronous networking escrito em Python Twisted.
 
 # # #
 
-Se vocÍ perdeu as conexıes com o seu proxy e tem muitos usu·rios, verifique os limites do seu sistema em /etc/security/limits.conf
+Se voc√™ perdeu as conex√µes com o seu proxy e tem muitos usu√°rios, verifique os limites do seu sistema em /etc/security/limits.conf
 
 A melhor maneira de aumentar os limites de arquivos abertos:
 
-† proxyuser hard nofile 1048576
-†
-† proxyuser soft nofile 1048576
+  proxyuser hard nofile 1048576
+  
+  proxyuser soft nofile 1048576
 
 # # #
 
-** NOTA: ** Este fork ainda est· em desenvolvimento. Alguns recursos podem estar com falha. Informe quaisquer caracterÌsticas ou problemas encontrados.
+** NOTA: ** Este fork ainda est√° em desenvolvimento. Alguns recursos podem estar com falha. Informe quaisquer caracter√≠sticas ou problemas encontrados.
 
-#CaracterÌsticas
+#Caracter√≠sticas
 
 * XMR stratum proxy
-* ConfiguraÁ„o da Carteira Central, os mineiros n„o precisam de carteira como nome de usu·rio
-* Apoio a mineraÁ„o direto para exchange
+* Configura√ß√£o da Carteira Central, os mineiros n√£o precisam de carteira como nome de usu√°rio
+* Apoio a minera√ß√£o direto para exchange
 * Suporte de monitoramento via e-mail
-* Bypass worker_id para estatÌstica detalhada e monitoramento de equipamento
-* Apenas uma conex„o com o pool
+* Bypass worker_id para estat√≠stica detalhada e monitoramento de equipamento
+* Apenas uma conex√£o com o pool
 * Vardiff Individual para os trabalhadores.
 
 #ToDo
 
-* Failover automatico atravÈs de proxy, para mineiros tambÈm n„o suportados (ccminer)
+* Failover automatico atrav√©s de proxy, para mineiros tamb√©m n√£o suportados (ccminer)
 
-#ConfiguraÁ„o
+#Configura√ß√£o
 
 * tudo configurado no arquivo config.py
 
@@ -38,7 +38,7 @@ A melhor maneira de aumentar os limites de arquivos abertos:
 
 * ./minerd -a cryptonight -o stratum+tcp://127.0.0.1:8080 -u 123456 -p 1
 
-#DoaÁıes 
+#Doa√ß√µes 
 
 * Monero/XMR: 49dL5bCSYRH6YxitPseZzc6cKnawcC4Fjjoaf22k8P4TYNoZBWKF3t6jXqrT3anyZ22j7DEE74GkbVcQFyH2nNiC3emV3w
 
@@ -48,13 +48,13 @@ A melhor maneira de aumentar os limites de arquivos abertos:
 
 #Requerimentos
 
-xmr-proxy-br È gfeito em python. atualmente testado na vers„o 2.7.3, Mas pode funcionar com outras versıes. Os requerimentos para executar este programa s„o:
+xmr-proxy-br √© gfeito em python. atualmente testado na vers√£o 2.7.3, Mas pode funcionar com outras vers√µes. Os requerimentos para executar este programa s√£o:
 
 * Python 2.7+
 * python-twisted
 * Pool com suporte para este proxy
 
-#InstalaÁ„o
+#Instala√ß√£o
 
 * edite o arquivo config.py e executar o xmr-proxy.py
 
@@ -67,7 +67,7 @@ xmr-proxy-br È gfeito em python. atualmente testado na vers„o 2.7.3, Mas pode fu
 
 * Original version by Slush0 (original stratum code)
 * More Features added by GeneralFault, Wadee Womersley and Moopless
-* TraduÁ„o PortuguÍs/Brasil por Sialber.
+* Tradu√ß√£o Portugu√™s/Brasil por Sialber.
 
 #License
 
